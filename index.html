@@ -1,22 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-       <div class="container">
-        <div class="box">
-           <marquee behavior="scroll" direction="right" scrollamount="10"> <h1>Biodata</h1></marquee>
-            <hr>
-    <ul>
-      <li><strong>Nama:</strong>Fauzan</li>
-      <li><strong>TTL:</strong> BOGOR</li>
-      <li><strong>Email:</strong> email@example.com</li>
-      <li><strong>Hobi:</strong> Membaca</li>
-      <li><strong>Pilihan Setelah SMK:</strong></li>
-      <a href=biodata2.html>Bekerja</a>
-    </ul>
-        </div>
-       </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fall Cry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Fall Cry</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#playlist">Song Playlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Actually, this band is just for our own fun, that's why it was formed. We were just curious about music, how to play musical instruments, and so on. And fun fact, the name "The Fall Cry" is inspired by the first letters of our names as band members, haha, which are Fauzan Arya Lando Christian Rafli Yasar. Our band hasn't released any original music yet, we've only covered songs from bands we like and music we enjoy.</p>
+        <img src="ú.jpg" alt="The Fall Cry Band">
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Please contact us through the form below or via email: info@thefallcryband.com</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="playlist">
+        <h2>Below is a playlist containing songs that we like and we have even covered them </h2>
+        <ul>
+            <li><a href="https://open.spotify.com/playlist/79N5QNbKxaReiWQwOWhPms?si=9ARjX0vzTEaI6bY4CVSLIA&pi=a-6H60pyTtQEiB" target="_blank">Spotify Playlist</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Fall Cry. All rights reserved.</p>
+    </footer>
+</body>
 </html>
