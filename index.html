@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fall Cry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background-color: #999;
+            color: green ;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        section p {
+            color: #666;
+        }
+
+        #playlist img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Fall Cry</h1>
+        <p>nb: This isn't god's favourite band</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#playlist">Song Playlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Actually, this band is just for our own fun, that's why it was formed. We were just curious about music, how to play musical instruments, and so on. And fun fact, the name "The Fall Cry" is inspired by the first letters of our names as band members, haha, which are Fauzan Arya Lando Christian Rafli Yasar. Our band hasn't released any original music yet, we've only covered songs from bands we like and music we enjoy.</p>
+        <img src="Band.jpg" alt="The Fall Cry Band">
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Please contact us through the form below or via email: <a href="mailto:thefallcryband@gmail.com">thefallcryband@gmail.com</a></p>
+        <form action="https://formsubmit.co/your-email-here" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="playlist">
+        <h2>Song Playlist</h2>
+        <p>Check out our favorite songs and covers on Spotify:</p>
+        <iframe src="https://open.spotify.com/embed/playlist/79N5QNbKxaReiWQwOWhPms" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Fall Cry. All rights reserved.</p>
+    </footer>
+</body>
+</html>
