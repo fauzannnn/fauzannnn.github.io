@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - HIMYNAMEISFAUZAN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Checkout - HIMYNAMEISFAUZAN</h1>
+    </header>
+
+    <main class="checkout-container">
+        <section class="cart-items">
+            <h2>Keranjang Belanja Anda</h2>
+            <ul id="cart-list"></ul>
+            <p id="total-price">Total: Rp 0</p>
+        </section>
+
+        <section class="checkout-form">
+            <h2>Informasi Pembeli</h2>
+            <label for="name">Nama Pembeli</label>
+            <input type="text" id="name" placeholder="Nama Anda">
+            
+            <label for="phone">No. Telepon</label>
+            <input type="text" id="phone" placeholder="08xxxxxxxxxx">
+            
+            <label for="address">Alamat Pengiriman</label>
+            <input type="text" id="address" placeholder="Alamat lengkap">
+
+            <label for="shipping">Jasa Pengiriman</label>
+            <select id="shipping">
+                <option value="">Pilih Jasa Pengiriman</option>
+                <option value="jne">JNE</option>
+                <option value="jnt">JNT</option>
+            </select>
+            
+            <button onclick="completeOrder()">Selesaikan Pesanan</button>
+        </section>
+    </main>
+</body>
+</html>
