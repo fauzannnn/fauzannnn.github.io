@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMYNAMEISFAUZAN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>HIMYNAMEISFAUZAN</h1>
+            <div class="cart-icon" onclick="goToCheckout()">
+                Keranjang (<span id="cart-count">0</span>)
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-list">
+            <div class="product">
+                <img src="kaos.jpg" alt="Kaos HIMYNAMEISFAUZAN">
+                <h2>Kaos HIMYNAMEISFAUZAN</h2>
+                <p class="price">Rp 150,000</p>
+                <button class="add-to-cart-btn" onclick="addToCart(1, 'Kaos HIMYNAMEISFAUZAN', 150000)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="hoodie.jpg" alt="Hoodie HIMYNAMEISFAUZAN">
+                <h2>Hoodie HIMYNAMEISFAUZAN</h2>
+                <p class="price">Rp 300,000</p>
+                <button class="add-to-cart-btn" onclick="addToCart(2, 'Hoodie HIMYNAMEISFAUZAN', 300000)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="topi.jpg" alt="Topi HIMYNAMEISFAUZAN">
+                <h2>Topi HIMYNAMEISFAUZAN</h2>
+                <p class="price">Rp 100,000</p>
+                <button class="add-to-cart-btn" onclick="addToCart(3, 'Topi HIMYNAMEISFAUZAN', 100000)">Tambah ke Keranjang</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HIMYNAMEISFAUZAN. All rights reserved.</p>
+    </footer>
+</body>
+</html>
